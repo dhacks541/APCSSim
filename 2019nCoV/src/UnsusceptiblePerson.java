@@ -1,9 +1,11 @@
-
 public class UnsusceptiblePerson extends Person{
-
-	UnsusceptiblePerson(int locx, int locy) {
+		
+	UnsusceptiblePerson(int locx, int locy){
 		super(locx, locy);
-		// TODO Auto-generated constructor stub
+		spreadIndex = 0;
+		dieIndex = 0;
+		incubationPeriod = 0;
+		
 	}
-
+	
 }
